@@ -18,7 +18,7 @@ function App() {
     // 2. Small delay to ensure event is sent before redirect
     setTimeout(() => {
       window.location.href = telegramLink;
-    }, 500);
+    }, 700);
   };
 
   return (
